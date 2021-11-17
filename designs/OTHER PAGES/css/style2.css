@@ -1,0 +1,136 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Myriad Pro;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+nav {
+  width: 100%;
+  background-color: black;
+}
+
+.header-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-logo-link > img {
+  width: 40%;
+  height: 100%;
+}
+
+.headerNavbarLinks {
+  font-size: 1rem;
+}
+
+.headerNavbarLinks .navbar-nav {
+  text-align: center;
+}
+
+.headerNavbarLinks .nav-link {
+  color:white;
+}
+
+.headerNavbarLinks .nav-link.active {
+  color: #8ACFB3
+}
+
+.headerNavbarLinks .navbar-nav .nav-item .btn {
+  font-size: 1rem;
+  border: 3px solid #8ACFB3;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.headerNavbarLinks .navbar-nav .nav-item .btn-success {
+  background-color:  black;
+}
+.headerNavbarLinks .navbar-nav .nav-item .btn-success {
+  background-color: #8ACFB3; /* Green */
+}
+
+.carousel-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#carouselExampleCaptions {
+  position: relative;
+  width: 100%;
+}
+
+.carousel-inner {
+  width: 100%;
+}
+
+.carousel-inner > .carousal-item {
+  width: 100%;
+}
+
+.carousel-item > img {
+  width:100%;
+  max-height:500px;
+}
+
+.content-header {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.content-header p {
+  color: grey;
+  font-size: 1.875rem;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card {
+  max-width: 80%;
+  height: 100%; 
+  background-color: white; 
+  border: none;
+  z-index: -2;
+}
+
+.card-image > img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.card-title {
+  text-align: left; 
+  font-size: 20px; 
+  font-weight: 550; 
+  margin-bottom: 30px;
+}
+
+.card-text {
+  text-align: left; 
+  color: grey;
+  font-weight: 100;
+}
+@media only screen and (max-width: 1199px) {
+  .navbar-logo-link > img {
+    width: 20%;
+    height: 100%;
+  }
+  
+  .header-container nav .navbar-logo {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  body {
+    overflow-x: scroll;
+  }
+}
+
